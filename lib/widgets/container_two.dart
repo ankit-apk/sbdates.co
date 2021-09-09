@@ -60,7 +60,7 @@ class ContainerTwo extends StatelessWidget {
               AboutUsCardWidget(
                 titleText: "We are connecting People",
                 descriptionText:
-                    "If you don't want to wait then we have a special category in our application and you can try your luck 😉",
+                    "If you don't want to wait then we have a special category in our application and you can try your luck (18+)",
                 logoUrl: 'assets/images/c2.png',
               ),
             ],

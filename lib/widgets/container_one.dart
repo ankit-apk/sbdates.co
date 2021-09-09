@@ -25,12 +25,26 @@ class ContainerOne extends StatelessWidget {
                   Column(
                     children: [
                       Text(
-                        "Make a wish & we will fullfill\n               it for you",
+                        "Make a wish,",
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
                             color: Colors.white,
                             fontSize: 24),
                       ),
+                      Text(
+                        "Hopefully it will become true here",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            fontSize: 24),
+                      ),
+                      // Text(
+                      //   "Make a wish, we will fullfill\n               it for you",
+                      //   style: TextStyle(
+                      //       fontWeight: FontWeight.bold,
+                      //       color: Colors.white,
+                      //       fontSize: 24),
+                      // ),
                       SizedBox(
                         height: 20,
                       ),
