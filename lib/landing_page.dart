@@ -3,6 +3,7 @@ import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 import 'package:secret_blind_date/widgets/container_one.dart';
 import 'package:secret_blind_date/widgets/container_three.dart';
 import 'package:secret_blind_date/widgets/container_two.dart';
+import 'package:secret_blind_date/widgets/privacy_widget.dart';
 
 class LandingPageUi extends StatelessWidget {
   LandingPageUi({Key? key}) : super(key: key);
@@ -73,6 +74,24 @@ class LandingPageUi extends StatelessWidget {
                         },
                         child: Text(
                           "Contact Us",
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.w500,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                      GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => PrivacyScreen(),
+                            ),
+                          );
+                        },
+                        child: Text(
+                          "Privacy Policy",
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.w500,
