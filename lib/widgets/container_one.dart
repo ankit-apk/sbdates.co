@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class ContainerOne extends StatelessWidget {
   const ContainerOne({
@@ -77,6 +78,18 @@ class ContainerOne extends StatelessWidget {
                             "we have an another category for you (18+), Try it and Love it.",
                             style: TextStyle(
                               color: Colors.white,
+                              fontSize: 16,
+                            ),
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            // "Simple register on our website we will find a girl\n    of your dream.In few simple steps you are\n            joining the unique dating app.",
+                            "Plus it is absolutely free for females.",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
                               fontSize: 16,
                             ),
                           ),
